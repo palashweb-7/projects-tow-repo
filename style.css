@@ -223,3 +223,55 @@ footer{
     text-align: center;
 }
 /* main gdir */
+
+/* responsive */
+
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+    main, header{
+        margin: 0;
+    }
+    .banner{
+        padding: 0;
+        width: 540px;
+    }
+    .tow-part {
+        flex-direction: column;
+        width: 540px;
+    }
+    .tow-part img{
+        width:540px;
+    }
+    .row{
+        flex-direction: column;
+       
+    }
+    .row img{
+        width: 520px;
+        height: 200px;
+    }
+    .card{
+        flex-direction: column;
+       width: 600px;
+    }
+    .single-card{
+        width: 600px;
+        flex-direction: column;
+    }
+    .cox-outside,.swimming-pool-2,.swimming-pool-3{
+        flex-direction: column;
+        padding: 0;
+       
+    }
+    
+    footer{
+        padding: 0;
+        width: 540px;
+        
+    }
+    .ffff{
+        flex-direction: column;
+    }
+}
