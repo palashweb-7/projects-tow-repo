@@ -164,27 +164,62 @@ nav   a{
 }
 
 /* swimming-pool */
-.swimming{
-    background-image: url(Images/Rectangle\ 11.png);
-    background-repeat: no-repeat;
-    margin: 50px 140px;
-    /* background-size: 1060px; */
+.cox-outside , .swimming-pool-3{
+    background-image: url(Images/pool.png);
+    padding: 50px 70px 50px 530px ;
+  
 }
- .swimming-pool{
-    width: 400px;
-    height: 190px;
-    flex-shrink: 0;
+.cox{
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
-
- 
-   backdrop-filter: blur(2.5px);
-   padding: 50px;
+    backdrop-filter: blur(2.5px);
+    /* width: 400px; */
+    padding: 30px 20px 20px 30px;
+    /*  */
+}
+.button{
+    margin-top: 10px;
+}
+span {
+    margin-right: 10px;
+}
+i{
+    margin:0 10px ;
+    /* background-color: orangered; */
+    color:orangered;
+   
 }
 
-.swimming-description{
-    width: 50px;
-    padding-left: 30px;
+.swimming-pool-2{
+    background-image: url(Images/pool.png);
+    padding:50px 530px 50px 70px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* input */
+
+input{
+    padding: 7px;
+   margin: 5px 0;
+}
+.tow-part-description-2{
+    background-color: cornsilk;
+    padding: 50px;
+}
+footer{
+    padding: 80px 270px ;
+    background: rgba(19, 19, 24, 0.05);
+}
+.ffff{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.icons{
+    text-align: center;
 }
 /* main gdir */
