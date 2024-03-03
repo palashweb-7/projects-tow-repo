@@ -239,17 +239,17 @@ footer{
     }
     .tow-part {
         flex-direction: column;
-        width: 540px;
+        width: 440px;
     }
     .tow-part img{
-        width:540px;
+        width:440px;
     }
     .row{
         flex-direction: column;
        
     }
     .row img{
-        width: 520px;
+        width: 440px;
         height: 200px;
     }
     .card{
@@ -257,7 +257,7 @@ footer{
        width: 600px;
     }
     .single-card{
-        width: 600px;
+        width: 440px;
         flex-direction: column;
     }
     .cox-outside,.swimming-pool-2,.swimming-pool-3{
@@ -268,7 +268,7 @@ footer{
     
     footer{
         padding: 0;
-        width: 540px;
+        width: 440px;
         
     }
     .ffff{
