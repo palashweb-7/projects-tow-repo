@@ -254,7 +254,7 @@ footer{
     }
     .card{
         flex-direction: column;
-       width: 600px;
+       width: 440px;
     }
     .single-card{
         width: 440px;
